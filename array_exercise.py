@@ -35,8 +35,8 @@ print()
 ## Step 5: Multiply your array from step one by your array from step 2
 print("-----------------------------------------------   STEP FIVE   -----------------------------------------------")
 
-errored = integers*integers2
-print(errored)
+#errored = integers*integers2
+#print(errored)
 
 ## This errored out... why? # not the same numbers of rows and columns
 print()
