@@ -43,6 +43,7 @@ grades_A = grades[grades >= 90]
 
 #create a dataframe for everyone with a B grade
 grades_B = grades[(grades >= 80) & (grades < 90)]
+print('new df: ', grades_B)
 
 #create a dataframe for everyone with an A or B grade # pipe symbol
 grades_A_or_B = grades[(grades >=90) | (grades >= 80)]
